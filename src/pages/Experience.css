@@ -1,7 +1,11 @@
 /* Page Header */
 .page-header {
   padding: 4rem 0 2rem;
-  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  background: linear-gradient(
+    135deg,
+    var(--bg-primary) 0%,
+    var(--bg-secondary) 100%
+  );
   text-align: center;
 }
 
@@ -317,4 +321,4 @@
   .education-card {
     padding: 1.5rem;
   }
-} 
+}
