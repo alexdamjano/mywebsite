@@ -4,87 +4,65 @@ import './Experience.css';
 const Experience: React.FC = () => {
   const experiences = [
     {
-      company: 'Medical Device Company',
-      position: 'Software Engineering Co-op',
-      duration: 'Jan 2023 - Aug 2023',
-      location: 'Toronto, ON',
+      company: 'Possibility Neurotechnologies',
+      position: 'Software Developer Co-op',
+      duration: 'Aug 2022 - Oct 2023',
+      location: 'Calgary, ON [Remote]',
       description:
-        'Developed embedded software for medical monitoring devices, focusing on real-time data processing and patient safety features.',
+        'Developed and maintained a BCI application using Electron that interfaced with the flagship ”Think2Switch” device.',
       achievements: [
-        'Implemented real-time signal processing algorithms for vital signs monitoring',
-        'Reduced device boot time by 40% through optimization of embedded systems',
-        'Collaborated with biomedical engineers to ensure FDA compliance requirements',
-        'Developed automated testing framework for medical device software',
+        'Implemented dozens of design iterations to the main app, buildng screens, fixing bugs and improving usage flow',
+        'Oversaw code standardization and linting practices for the team using Prettier',
+        'Developed and implemented automated code quality checks with Git Actions',
+        'Collaborated with product and QA teams to develop and deliver secure updates to possneuro.com',
       ],
-      technologies: ['C++', 'Embedded Systems', 'RTOS', 'Python', 'Git'],
+      technologies: ['Electron', 'Node.js', 'JavaScript', 'HTML/CSS', 'Git'],
     },
     {
-      company: 'Healthcare Technology Startup',
-      position: 'Full Stack Developer Co-op',
-      duration: 'May 2022 - Dec 2022',
-      location: 'Vancouver, BC',
+      company: 'Everworks Inc.',
+      position: 'Systems Engineer Co-op',
+      duration: 'May 2022 - July 2023',
+      location: 'Dundas, ON',
       description:
-        'Built web applications for healthcare providers to manage patient data and generate analytics reports.',
+        'Built SCADA visualization systems for live industrial data, and oversaw development of an internal web-based job board.',
       achievements: [
-        'Developed RESTful APIs for patient data management system',
-        'Created responsive frontend using React and TypeScript',
-        'Implemented secure authentication and authorization systems',
-        'Integrated third-party medical device APIs for data collection',
+        'Improved user workflows with responsive UIs for industrial data that were displayed live on manufacturing floors [Collective Arts, Hamilton Health Sciences]',
+        'Met with clients to address existing technical needs and negotiate POs',
+        'Led full-stack development of web-based internal job board with PHP, JavaScript and PostgreSQL',
+        'Performed investigations into vibrations analysis and alternative monitoring techniques for industrial apparatuses',
       ],
-      technologies: ['React', 'Node.js', 'TypeScript', 'MongoDB', 'AWS'],
+      technologies: [
+        'Ignition',
+        'Python',
+        'TypeScript',
+        'PHP',
+        'PostgreSQL',
+        'AWS',
+      ],
     },
     {
-      company: 'University Research Lab',
-      position: 'Biomedical Engineering Research Assistant',
-      duration: 'Sep 2021 - Apr 2022',
-      location: 'Waterloo, ON',
+      company: 'JaggedXY Inc.',
+      position: 'Software Developer Co-op',
+      duration: 'May 2021 - Sep 2021',
+      location: 'Stratford, ON [Remote]',
       description:
         'Conducted research on biomechanical analysis and developed software tools for movement pattern recognition.',
       achievements: [
-        'Designed and implemented machine learning algorithms for gait analysis',
-        'Created 3D visualization tools for biomechanical data',
-        'Published research findings in academic conference proceedings',
-        'Mentored undergraduate students in research methodologies',
+        'Full-stack development of a web app for visualizing telecom data, in use at Rogers and AT&T',
+        'Built visualizations using the OpenStreetMap library in JavaScript',
+        'Performed server-side data fetching in C# using .NET MVC architecture',
       ],
-      technologies: [
-        'Python',
-        'MATLAB',
-        'Machine Learning',
-        'OpenCV',
-        '3D Modeling',
-      ],
-    },
-    {
-      company: 'Software Development Firm',
-      position: 'Software Developer Co-op',
-      duration: 'Jan 2021 - Aug 2021',
-      location: 'Ottawa, ON',
-      description:
-        'Worked on enterprise software solutions, focusing on backend development and database optimization.',
-      achievements: [
-        'Developed microservices architecture for scalable applications',
-        'Optimized database queries resulting in 60% performance improvement',
-        'Implemented CI/CD pipelines for automated testing and deployment',
-        'Participated in code reviews and mentored junior developers',
-      ],
-      technologies: ['Java', 'Spring Boot', 'PostgreSQL', 'Docker', 'Jenkins'],
+      technologies: ['JavaScript', '.NET', 'C#', 'OpenStreetMap'],
     },
   ];
 
   const education = [
     {
-      degree: 'Bachelor of Software Engineering',
-      school: 'University of Waterloo',
-      duration: '2019 - 2024',
+      degree: 'Bachelor of Software and Biomedical Engineering',
+      school: 'McMaster University',
+      duration: '2019 - 2025',
       description:
-        'Focused on software development, algorithms, and system design with emphasis on healthcare applications.',
-    },
-    {
-      degree: 'Bachelor of Biomedical Engineering',
-      school: 'University of Waterloo',
-      duration: '2019 - 2024',
-      description:
-        'Specialized in medical device design, biomechanics, and healthcare technology innovation.',
+        'Focused on software development and the intersection of software technologies in healthcare.',
     },
   ];
 
