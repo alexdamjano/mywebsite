@@ -62,9 +62,9 @@ const Experience: React.FC = () => {
       school: 'McMaster University',
       duration: '2019 - 2025',
       description:
-        'Focused on software development principles from data structures, optimization, system architectures and beyond.' +
-        'My majors allowed me to pursue my interests in both software technology and biomedicine,' +
-        'studying anatomy and cell biology alongside databases and operating systems.' +
+        'Focused on software development principles from data structures, optimization, system architectures and beyond. ' +
+        'My majors allowed me to pursue my interests in both software technology and biomedicine, ' +
+        'studying anatomy and cell biology alongside databases and operating systems. ' +
         'I am endlessly fascinated by the work at the intersection of these fields. Check out the projects page to find out more.',
     },
   ];

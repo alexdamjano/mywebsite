@@ -29,10 +29,8 @@ const Projects: React.FC = () => {
       githubUrl: 'https://github.com/SkinImagerCS/SkinImager_FrontEnd',
       features: [
         'Mobile app for clinicians',
-        'UI guidance for image capture',
         'Cloud-based data storage',
         'Image analysis with OpenCV',
-        'Usability and data integrity testing',
       ],
     },
     {
