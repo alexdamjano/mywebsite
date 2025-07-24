@@ -15,22 +15,24 @@ const Projects: React.FC = () => {
   const projects = [
     {
       id: 1,
-      title: 'Smart Patient Monitor',
+      title: 'Lesion Cohesion',
       category: 'medical',
       description:
-        'A comprehensive patient monitoring system that tracks vital signs in real-time and alerts healthcare providers of critical changes.',
+        'A mobile-desktop application that aids clinicians in imaging, monitoring, and analysing Mpox disease progression for their patients.',
       longDescription:
-        'This project combines embedded systems with IoT technology to create a smart patient monitoring solution. The device continuously monitors heart rate, blood pressure, temperature, and oxygen saturation, sending data to a cloud-based dashboard for healthcare providers.',
-      technologies: ['C++', 'Arduino', 'IoT', 'Python', 'React', 'Node.js'],
+        'My final year Capstone project, Lesion Cohesion, was inspired by a research paper discussing the difficulties of tracking Mpox lesions on patients, even with aids like machine learning models for image processing. ' +
+        'My group and I built a mobile application in React that visually guided clinicians through an imaging process that would produce high quality, standardized images that could be combined into a 2D mesh for analysis. ' +
+        'By connecting to a local desktop, the application could gain additional analysis capabilities to give live updates about lesion count and infected area for patients.',
+      technologies: ['React', 'JavaScript', 'Python', 'OpenCV', 'FireStore'],
       image: '🏥',
-      demoUrl: 'https://demo-patient-monitor.netlify.app',
-      githubUrl: 'https://github.com/yourusername/patient-monitor',
+      demoUrl: 'https://youtu.be/0COM1sIxE9c?si=vpDf5qI2HwuIpAe2',
+      githubUrl: 'https://github.com/SkinImagerCS/SkinImager_FrontEnd',
       features: [
-        'Real-time vital signs monitoring',
-        'Cloud-based data storage and analytics',
-        'Mobile app for healthcare providers',
-        'Automated alert system for critical values',
-        'FDA compliance considerations',
+        'Mobile app for clinicians',
+        'UI guidance for image capture',
+        'Cloud-based data storage',
+        'Image analysis with OpenCV',
+        'Usability and data integrity testing',
       ],
     },
     {
