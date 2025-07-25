@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     { path: '/', label: 'Home' },
     { path: '/experience', label: 'Experience' },
     { path: '/projects', label: 'Projects' },
-    { path: '/contact', label: 'Contact' }
+    { path: '/contact', label: 'Contact' },
   ];
 
   const toggleMenu = () => {
@@ -26,8 +26,10 @@ const Header: React.FC = () => {
       <div className="container">
         <div className="header-content">
           <Link to="/" className="logo" onClick={closeMenu}>
-            <span className="logo-text">Alex</span>
-            <span className="logo-subtitle">Software & Biomedical Engineer</span>
+            <span className="logo-text">Alex Damjanovski</span>
+            <span className="logo-subtitle">
+              Software & Biomedical Engineer
+            </span>
           </Link>
 
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
@@ -36,7 +38,9 @@ const Header: React.FC = () => {
                 <li key={item.path} className="nav-item">
                   <Link
                     to={item.path}
-                    className={`nav-link ${location.pathname === item.path ? 'active' : ''}`}
+                    className={`nav-link ${
+                      location.pathname === item.path ? 'active' : ''
+                    }`}
                     onClick={closeMenu}
                   >
                     {item.label}
@@ -61,4 +65,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header; 
+export default Header;
